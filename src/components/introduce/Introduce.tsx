@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Script from 'next/script'
 import styles from "./introduce.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -31,7 +32,9 @@ function Introduce() {
             </a>
           </li>
         </ul>
-      </div>
+              </div>
+              <div id="particle-image" className={styles.partical}></div>
+              <Script src="/script/index.js" />
     </section>
   );
 }

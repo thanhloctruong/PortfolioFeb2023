@@ -2,15 +2,16 @@
 import React from "react";
 import styles from './Layout.module.scss'
 import { Container } from "react-bootstrap";
-import Footer from "../footer/footer";
+
 import NavHeader from "@/components/navbar/nav";
+import Footer from "../footer/Footer";
 
 
 function Layout({ children }: React.PropsWithChildren) {
       return (
         <>
       <NavHeader />
-    <main >
+    <main className={styles.main_bg}>
               <Container className={styles.wrap}>
         {children}
       </Container>

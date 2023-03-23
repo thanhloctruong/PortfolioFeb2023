@@ -6,7 +6,9 @@ line-height: 36px;
 color: #F44336;
       }
       background-attachment: fixed;
+p{
 
+}
 }
 .sessions{
       margin-top: 2rem;
@@ -34,7 +36,7 @@ color: #F44336;
         border-radius: 50%;
         position: absolute;
         left: -10px;
-        top: 0px;
+        top: 10px;
       }
     }
     .times{
@@ -42,7 +44,8 @@ color: #F44336;
       font-family: 'Poppins', sans-serif;
       font-weight: 500;
       font-size: 24px;
-      color: #000C24;
+      color: #F44336;
+
 
     }
     p{
@@ -51,5 +54,7 @@ color: #F44336;
       line-height: 1.5;
       margin-top:0.4rem;
       color: #000C24;
+      font-size: 24px;
+      // color: #000C24;
     }
 }
