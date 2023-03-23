@@ -1,0 +1,32 @@
+.home_header {
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+}
+.container_header {
+      display: flex;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+a{
+      color: #000;
+      font-size: 20px;
+}
+}
+.navbar {
+      justify-content: center;
+      box-shadow: 0px 1px 4px #cccccc;
+      background-color: #fff;
+}
+.visible {
+      /* display: flex; */
+      background-color: #fff;
+      top: 0;
+      transition: top 0.4s ease-out;
+}
+
+.hidden {
+      /* display: none; */
+      top: -100px;
+      transition: top 0.4s ease-out;
+}
