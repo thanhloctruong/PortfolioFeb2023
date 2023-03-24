@@ -17,7 +17,7 @@ function About() {
                           <p className={styles.text}>
                           A highly motivated and enthusiastic web developer seeking a challenging role in a dynamic environment where I can utilize my skills and knowledge to contribute to the growth of the organization. 
                           </p>
-                          <div className={styles.box}>Download CV</div>
+                          <div className={styles.box}><a href="/files/Frontend_TruongThanhLoc.pdf" target="_blank">View CV</a></div>
                     </Col>
               </Row>
     </section>

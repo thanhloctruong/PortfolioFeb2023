@@ -19,9 +19,9 @@ export default function Experience() {
             },
             {
                   name: "Highlands coffee",
-                  type: "Advertise website",
+                  type: "E-commerce website",
                   tech: "Nextjs,Html, Scss, Typescript, Redux Toolkit, Gsap, animate.css, boostrap, lotie",
-                  size: 6,
+                  size: 8,
                   role: "Maintainer frontend developer"
             }
       ]

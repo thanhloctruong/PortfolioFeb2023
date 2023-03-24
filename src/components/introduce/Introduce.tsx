@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Script from 'next/script'
+import Script from "next/script";
 import styles from "./introduce.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -22,19 +22,29 @@ function Introduce() {
         <div className={styles.typewriter}>I'm Front end Developer </div>
         <ul className={styles.social_list}>
           <li className={styles.item}>
-            <a href="http://">
-              <Image src="/assets/images/github.png" alt={""} width={50} height={50} />
+            <a href="https://github.com/thanhloctruong" target="_blank">
+              <Image
+                src="/assets/images/github.png"
+                alt={""}
+                width={50}
+                height={50}
+              />
             </a>
           </li>
           <li className={styles.item}>
-            <a href="http://">
-                                      <Image src="/assets/images/linkedin.png" alt={""} width={50} height={50} />
+            <a href="https://www.linkedin.com/in/acantruong" target="_blank">
+              <Image
+                src="/assets/images/linkedin.png"
+                alt={""}
+                width={50}
+                height={50}
+              />
             </a>
           </li>
         </ul>
-              </div>
-              <div id="particle-image" className={styles.partical}></div>
-              <Script src="/script/index.js" />
+      </div>
+      <div id="particle-image" className={styles.partical}></div>
+      <Script src="/script/index.js" />
     </section>
   );
 }

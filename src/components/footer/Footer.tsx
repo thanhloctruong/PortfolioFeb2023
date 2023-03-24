@@ -10,10 +10,10 @@ export default function Footer() {
               <h2>Trương Thành Lộc</h2>
               <div>
                     
-              <a href="http://">
+              <a href="https://github.com/thanhloctruong" target="_blank">
               <Image src="/assets/images/github.png" alt={""} width={50} height={50} />
             </a>
-            <a href="http://">
+            <a href="https://www.linkedin.com/in/acantruong" target="_blank">
                                       <Image src="/assets/images/linkedin.png" alt={""} width={50} height={50} />
               </a>
               </div>
