@@ -2,20 +2,20 @@ import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.scss";
 import { Nav } from "react-bootstrap";
 
-function nav() {
-      const [position, setPosition] = useState(0)
+const  NavBar = ()=> {
+      const [position, setPosition] = useState(0);
       const [visible, setVisible] = useState(true);
       useEffect(() => {
             const handleScroll = () => {
-              let moving = window.pageYOffset
-              setVisible(position > moving);
-              setPosition(moving)
+                  let moving = window.pageYOffset
+                  setVisible(position > moving);
+                  setPosition(moving)
             };
             window.addEventListener("scroll", handleScroll);
             return (() => {
-              window.removeEventListener("scroll", handleScroll);
+                  window.removeEventListener("scroll", handleScroll);
             })
-          })
+      });
   return (
         <>
               <header className={`${visible ? styles.visible : styles.hidden}  ${styles.home_header}`}>
@@ -41,4 +41,4 @@ function nav() {
   );
 }
 
-export default nav;
+export default NavBar;

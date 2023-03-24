@@ -19,10 +19,10 @@ function Introduce() {
             Trương Thành Lộc (ACan Trương)
           </text>
         </svg>
-        <div className={styles.typewriter}>I'm Front end Developer </div>
+        <div className={styles.typewriter}>I&apos;m Front end Developer </div>
         <ul className={styles.social_list}>
           <li className={styles.item}>
-            <a href="https://github.com/thanhloctruong" target="_blank">
+            <a href="https://github.com/thanhloctruong" target="_blank" rel="noreferrer">
               <Image
                 src="/assets/images/github.png"
                 alt={""}
@@ -32,7 +32,7 @@ function Introduce() {
             </a>
           </li>
           <li className={styles.item}>
-            <a href="https://www.linkedin.com/in/acantruong" target="_blank">
+            <a href="https://www.linkedin.com/in/acantruong" target="_blank" rel="noreferrer">
               <Image
                 src="/assets/images/linkedin.png"
                 alt={""}
