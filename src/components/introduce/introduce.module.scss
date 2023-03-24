@@ -85,3 +85,20 @@
       height: 50%;
       width: 50%;
     }
+
+    @media only screen and (min-width: 600px)and (max-width: 1024px){
+      .introduce{
+            .text_line{
+                  font-size: 23px;
+            }
+            .typewriter{
+                  font-size: 20px;
+            }
+      }
+      .partical{
+            top: 63%;
+            /* bottom: 0; */
+      height: 30%;
+            left: 10%;
+      }
+    }

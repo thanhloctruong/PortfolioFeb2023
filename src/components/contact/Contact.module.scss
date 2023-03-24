@@ -29,3 +29,16 @@ color: #F44336;
             }
       }
 }
+
+@media only screen and (min-width: 600px)and (max-width: 1024px){
+      .contact{
+            .contents{
+                  padding: 0;
+                  .link{
+                        font-size: 20px;
+                        column-gap: 10px;
+                  }
+            }
+      }
+
+}

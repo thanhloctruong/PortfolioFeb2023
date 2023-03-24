@@ -12,7 +12,7 @@ function Introduce() {
         <svg
           height="100"
           stroke="#FFFFFF"
-          stroke-width="2"
+          strokeWidth="2"
           className={styles.text_line}
           width="100%">
           <text x="0" dominant-baseline="start" text-anchor="start" y="50%">
