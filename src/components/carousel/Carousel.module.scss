@@ -1,0 +1,29 @@
+.carousel{
+      &_contents{
+            margin: 0 auto;
+      }
+      &_img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+      }
+      &_container{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            height: 500px;
+            .next{
+                  position: absolute;
+                  right: 20px;
+                  top: 50%;
+            }
+            .previous{
+                  position: absolute;
+                  left: 20px;
+                  top: 50%;
+            }
+
+      }
+
+}

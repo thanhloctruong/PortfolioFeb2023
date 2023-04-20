@@ -15,9 +15,13 @@ function About() {
                     <Col md={6} className={styles.decription}>
                           <h2>About me</h2>
                           <p className={styles.text}>
-                          A highly motivated and enthusiastic web developer seeking a challenging role in a dynamic environment where I can utilize my skills and knowledge to contribute to the growth of the organization. 
+                                Aim to become full stack developer, have more than 1 year of experience working as a frontend developer with ReactJS and AngularJS.
+                                <br /> Assisted in the development and maintenance of various websites.
+                                <br />Contributed to the code base and implemented new features.
+                                <br />Gained experience in working with a team and collaborating with stakeholders.
+                                <br />Have experience in front-end deployment.
                           </p>
-                          <div className={styles.box}><a href="/files/Frontend_TruongThanhLoc.pdf" target="_blank">View CV</a></div>
+                          <div className={styles.box}><a href="/files/FE-CV.pdf" target="_blank">View CV</a></div>
                     </Col>
               </Row>
     </section>
