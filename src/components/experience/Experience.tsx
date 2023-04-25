@@ -4,10 +4,10 @@ import styles from "./Experience.module.scss";
 export default function Experience() {
       const listProduct = [
             {
-                  name: "Lego friend",
-                  type: "Advertise website",
-                  tech: "Webpack, html, scss, animate.css, Typescript",
-                  size: 1,
+                  name: "Highlands coffee",
+                  type: "E-commerce website",
+                  tech: "Nextjs,Html, Scss, Typescript, Redux Toolkit, Gsap, animate.css, boostrap, lotie",
+                  size: 8,
                   role: "Maintainer frontend developer"
             },
             {
@@ -18,14 +18,14 @@ export default function Experience() {
                   role: "Maintainer frontend developer"
             },
             {
-                  name: "Highlands coffee",
-                  type: "E-commerce website",
-                  tech: "Nextjs,Html, Scss, Typescript, Redux Toolkit, Gsap, animate.css, boostrap, lotie",
-                  size: 8,
+                  name: "Lego friend",
+                  type: "Advertise website",
+                  tech: "Webpack, html, scss, animate.css, Typescript",
+                  size: 1,
                   role: "Maintainer frontend developer"
             }
-      ]
 
+      ]
       const [number, setNumber ]= useState<any>(null)
 
       const handleShow = (id: number) => {

@@ -21,7 +21,7 @@ function About() {
                                 <br />Gained experience in working with a team and collaborating with stakeholders.
                                 <br />Have experience in front-end deployment.
                           </p>
-                          <div className={styles.box}><a href="/files/FE-CV.pdf" target="_blank">View CV</a></div>
+                          <div className={styles.box}><a href="/files/Frontend-TruongThanhLoc" target="_blank">View CV</a></div>
                     </Col>
               </Row>
     </section>
